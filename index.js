@@ -9,8 +9,12 @@ module.exports = {
         //],
         html: {
             "body:start": function() {
-                // Required to including this way because raphael is non-AMD compliant
                 return "<div style='background-color: red; width: 100%; height: 75px;' />";
+            }
+        }
+        hooks: {
+            "page": function(page) {
+                alert('at hook');
             }
         }
     }
