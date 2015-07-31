@@ -14,7 +14,18 @@ module.exports = {
                             + '<a href="http://www.technicalmedia.com" target="_blank"><img src="' + a.staticBase + '/plugins/gitbook-plugin-banner/tm.jpg" style="height: 59px; width: 59px; margin: 8px 0px 8px 21px" /></a>' 
                             + '</div>';
 
-                ret += '<div style="position: absolute; top: 75px; bottom: 0; right:0; width: 300px; background-color: white;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- responsive-ad --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1172196663696524" data-ad-slot="7874509891" data-ad-format="auto"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>';
+                ret += '<div style="position: absolute; top: 75px; bottom: 0; right:0; width: 300px; background-color: white;">\r\n'
+                    + '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>\r\n'
+                    + '<!-- Responsive Ad 02 -->\r\n'
+                    + '<ins class="adsbygoogle"\r\n'
+                    + '     style="display:block"\r\n'
+                    + '     data-ad-client="ca-pub-1172196663696524"\r\n'
+                    + '     data-ad-slot="4246608690"\r\n'
+                    + '     data-ad-format="auto"></ins>\r\n'
+                    + '<script>\r\n'
+                    + '(adsbygoogle = window.adsbygoogle || []).push({});\r\n'
+                    + '</script>\r\n'
+                    + '</div>\r\n';
                 return ret; // "<div style='background-color: red; width: 100%; height: 75px;' />";
             }
         }
